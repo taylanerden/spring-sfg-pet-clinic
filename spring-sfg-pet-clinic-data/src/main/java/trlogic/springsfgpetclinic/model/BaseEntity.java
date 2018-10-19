@@ -1,10 +1,12 @@
 package trlogic.springsfgpetclinic.model;
 
+import com.sun.xml.internal.bind.v2.model.core.ID;
+
 import java.io.Serializable;
 
 public class BaseEntity implements Serializable{
 
-    public Long getId() {
+    public ID getId() {
         return id;
     }
 
