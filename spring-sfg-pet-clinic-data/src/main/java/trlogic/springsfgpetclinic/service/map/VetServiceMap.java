@@ -6,7 +6,7 @@ import trlogic.springsfgpetclinic.service.CrudService;
 
 import java.util.Set;
 
-public class VetServiceMap extends  AbstractMapService<Vet,ID>, implements CrudService<Vet,Long> {
+public class VetServiceMap extends  AbstractMapService<Vet,ID> implements CrudService<Vet,Long> {
 
     @Override
     public Set<Vet> findAll() {
